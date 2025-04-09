@@ -5,7 +5,7 @@
 	$height = $_POST['height'];
 
 	// calculate the area
-	$area = ($base1 + $base2)/2 * $height;
+	$area = $base1 + $base2 /2 * $height;
 	?>
 	<h3>Results:</h3>
 	The area of the triangle is <?php echo "$area" ?>cm<sup>2</sup>.;
