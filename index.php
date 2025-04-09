@@ -3,9 +3,9 @@
   <head>
     <!-- Metadata -->
     <meta charset="utf-8">
-    <meta name="description" content="My first webpage with user input">
-    <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="description" content="Area of a Trapezoid">
+    <meta name="keywords" content="immaculata, icd2o">
+    <meta name="author" content="kukwac">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Code for the favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./Favicons/apple-touch-icon.png">
@@ -15,15 +15,15 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
-    <title>Area of a Triangle in PHP</title>
+    <title>Area of a Trapezoid</title>
   </head>
   <body>
 		<!-- php echo to print the html to the page -->
     <?php 
-			echo "<h1>Area of a Triangle in PHP</h1>";
-			echo "<h3>This program will calculate the area of a triangle.</h3>";
+			echo "<h1>Area of a Trapezoid in PHP</h1>";
+			echo "<h3>This program will calculate the area of a trapezoid.</h3>";
 		?>
-		<!-- form to get the base and height from the user -->
+		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for=lblBase">Base1 (cm):</label>
       <input type="text" id="base1" placeholder="Enter the base (cm)" name="base1"><br><br>
@@ -35,9 +35,8 @@
     </form>
 
 			<!-- iframe for the results to show on the web page. -->
-			<iframe id="results" name="results">			
-			<div id= $area></div>
-      The area of the triangle is  " + $area + cm <sup>2</sup>
-	    </iframe>
+			<iframe id="results" name="results">
+        The area of the triangle is  " + $area + cm <sup>2</sup>
+      </iframe>
 	</body>
 </html>
