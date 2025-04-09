@@ -26,11 +26,11 @@
 		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
       <label for=lblBase">Base1 (cm):</label>
-      <input type="text" id="base1" placeholder="Enter the base (cm)" name="base1"><br><br>
+      <input type="float" id="base1" placeholder="Enter the base (cm)" name="base1"><br><br>
       <label for="lblHeight">Base2 (cm):</label>
-      <input type="text" id="base2" placeholder="Enter the height (cm)" name="base2"><br><br>
+      <input type="float" id="base2" placeholder="Enter the height (cm)" name="base2"><br><br>
       <label for="lblHeight">Height (cm):</label>
-      <input type="text" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
+      <input type="float" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
       <input type="submit" value="Calculate Area">
     </form>
 
