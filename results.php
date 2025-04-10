@@ -1,7 +1,7 @@
 <?php
 	// get the base and height from the textfields
 	$base1 = $_POST['base1'];
-	$base2 = $POST['base2'];
+	$base2 = $_POST['base2'];
 	$height = $_POST['height'];
 
 	// calculate the area
