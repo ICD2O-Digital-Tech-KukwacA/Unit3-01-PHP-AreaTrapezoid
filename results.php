@@ -8,4 +8,4 @@
 	$area = ($base1 + $base2 )/2 * $height;
 ?>
 	<h3>Results:</h3>
-	The area of the trapezoid is <?php echo "$area" ?>cm<sup>2</sup>.;
+	The area of the trapezoid is <?php echo "$area" ?>cm<sup>2</sup>.

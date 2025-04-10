@@ -38,7 +38,7 @@
 			<iframe id="results" name="results">
         <div id="user-info">
           <div id="$area"></div>
-      </div>
+        </div>
       </iframe>
 	</body>
 </html>
