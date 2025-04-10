@@ -25,18 +25,20 @@
 		?>
 		<!-- form to get the bases and height from the user -->
     <form action="./results.php" method="post" target="results">
-      <label for=lblBase">Base1 (cm):</label>
+      <label for="base1">Base(a) (cm):</label>
       <input type="float" id="base1" placeholder="Enter the base (cm)" name="base1"><br><br>
-      <label for="lblHeight">Base2 (cm):</label>
-      <input type="float" id="base2" placeholder="Enter the height (cm)" name="base2"><br><br>
-      <label for="lblHeight">Height (cm):</label>
+      <label for="base2">Base(b) (cm):</label>
+      <input type="float" id="base2" placeholder="Enter the base (cm)" name="base2"><br><br>
+      <label for="height">Height (cm):</label>
       <input type="float" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
       <input type="submit" value="Calculate Area">
     </form>
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
-        The area of the triangle is  " + $area + cm <sup>2</sup>
+        <div id="user-info">
+          <div id="$area"></div>
+      </div>
       </iframe>
 	</body>
 </html>
