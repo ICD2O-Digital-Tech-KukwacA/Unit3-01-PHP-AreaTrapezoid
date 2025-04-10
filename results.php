@@ -6,6 +6,7 @@
 
 	// calculate the area
 	$area = ($base1 + $base2 )/2 * $height;
+	round= ($area,2)
 ?>
 	<h3>Results:</h3>
 	The area of the trapezoid is <?php echo "$area" ?>cm<sup>2</sup>.;
